@@ -1,0 +1,24 @@
+{
+  "name": "lovoo/tracedump",
+  "type": "library",
+  "keywords": [
+    "dump",
+    "debug"
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files": [
+      "resources/functions.php"
+    ],
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
